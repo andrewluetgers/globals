@@ -1,7 +1,7 @@
+# globals.js
 A handy tool to catch leaked globals. Some kind of global leakage detection should be built into the js inspectors but untill then I'll use this.
 
-Usage:
-
+### Usage:
 load as first js on the page preferably in the head <br/>
 load the page with a globals parm like so<br/>
 http://localhost/myproject/index.html?globals
@@ -14,6 +14,5 @@ Optionally add a name that will show up in the logs. <br/>
 Optionally pass true to the second arguement to see a more verbose log on every call.<br/><br/>
 
 
-Copyright:
-
-http://creativecommons.org/licenses/by/3.0/
+### Copyright:
+[http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)
